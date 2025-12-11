@@ -68,7 +68,7 @@ class KitchenOrderConsumer extends Thread {
                 if (order == null) break;
                 Thread.sleep(800);
             }
-            System.out.println("Consumer finished all orders.");
+            System.out.println("Consumer completed all orders.");
         } catch (InterruptedException e) {
             System.out.println("Consumer interrupted.");
         }
